@@ -5,6 +5,9 @@ to see if there are any crontab task you are currently running.<br />
 if there isn't any, execute ```crontab -e``` to edit crontab task.
 pick one text editor of your choosing. <br />
 
+### Important note
+To kill a crontab task, simply execute crontab -r.<br />
+
 After choosing the editor, add:
 ```
 * * * * * cd your_appliacation_path && python trello.py
