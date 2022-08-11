@@ -1,4 +1,4 @@
-# Project
+# Trello Automated Card Creation Using Crontab
 
 ## Abstract
 This piece of code creates new cards into the specified board and list [Trello](https://trello.com/) every minute.
