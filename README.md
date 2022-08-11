@@ -4,11 +4,11 @@
 This piece of code creates new cards into the specified board and list [Trello](https://trello.com/) every minute.
 
 # Trello
-First [create an account](https://trello.com/signup).<br />
-After creating an account, create a board and a list. <br />
-Then, go to [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/) <br />
-Then go here : [Trello REST API Introduction](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/) <br />
-This page explains how to create an app key and token. You can simply click on this link : [Trello get app key](https://trello.com/app-key)<br />
+1. First [create an account](https://trello.com/signup).<br />
+2. After creating an account, create a board and a list. <br />
+3. Then, go to [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/) <br />
+4. Then go here : [Trello REST API Introduction](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/) <br />
+5. This page explains how to create an app key and token. You can simply click on this link : [Trello get app key](https://trello.com/app-key)<br />
 Follow the guide and acquire a key and a token.
 
 ## trello.py
@@ -22,6 +22,8 @@ All done! All we have to do is to schedule tasks to run this script. For this pu
 # CRONTAB
 ## What is crontab
 The crontab is a list of commands that you want to run on a regular schedule, and also the name of the command used to manage that list. ([source](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/))<br />
+
+## Creating a crontab task
 execute 
 ```crontab -l```
 to see if there are any crontab task you are currently running.<br />
