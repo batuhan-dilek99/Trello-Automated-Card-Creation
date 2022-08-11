@@ -1,7 +1,7 @@
 # Project
 
 ## Abstract
-This piece of code creates new cards into the specified board and list ![Trello](https://trello.com/)
+This piece of code creates new cards into the specified board and list [Trello](https://trello.com/)
 # Trello
 
 
